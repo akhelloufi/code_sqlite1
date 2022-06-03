@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GererClientActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Code :"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/tcodedb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="donner code"
+            android:inputType="textPersonName"
+            android:textColor="@color/bleu"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="nom :"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/tnomdb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="donner nom"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="donner salaire"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/tsalairedb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="donner salaire"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bajoutdb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ajouter client " />
+
+    <Button
+        android:id="@+id/bafficherdb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="afficher les clients?" />
+
+    <TextView
+        android:id="@+id/tafficherinfodb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="liste info:"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+</LinearLayout>
